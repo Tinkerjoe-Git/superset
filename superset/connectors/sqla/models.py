@@ -64,7 +64,6 @@ from superset.exceptions import (
     SupersetGenericDBErrorException,
     SupersetSecurityException,
 )
-from superset.extensions import event_logger
 from superset.jinja_context import (
     BaseTemplateProcessor,
     ExtraCache,
